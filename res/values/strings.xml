@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">d20</string>
+    <string name="plus">-</string>
+    <string name="minus">+</string>
+    <string name="d3">d3</string>
+    <string name="d4">d4</string>
+    <string name="d6">d6</string>
+    <string name="d8">d8</string>
+    <string name="d10">d10</string>
+    <string name="d12">d12</string>
+    <string name="d20">d20</string>
+    <string name="dPercent">d%</string>
+    <string name="text_plus">Plus:</string>
+    <string name="text_integer">[integer]</string>
+    <string name="roll">Roll</string>
+    <string name="clear">Clear</string>
+    <string name="d">d</string>
+    <string name="text_number_of_sides">[Number of Sides]</string>
+
+</resources>

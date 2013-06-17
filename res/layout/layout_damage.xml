@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tab3Layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/d3"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/d10"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout07"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/d4"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout06"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/d12"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout05"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/d6"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/d20"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/TableRow01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout03"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/d8"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:gravity="center" >
+
+            <Button
+                android:id="@+id/plusd100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/plus"
+                android:width="55dp" >
+            </Button>
+
+            <EditText
+                android:id="@+id/editd100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="20dp"
+                android:hint="@string/dPercent"
+                android:inputType="number"
+                android:maxLength="3"
+                android:text=""
+                android:textSize="13dp"
+                android:width="50dp" >
+            </EditText>
+
+            <Button
+                android:id="@+id/minusd100"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:height="15dp"
+                android:text="@string/minus"
+                android:width="55dp" >
+            </Button>
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="fill_parent"
+        android:layout_height="10sp"
+        android:baselineAligned="true"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:text="@string/text_plus"
+            android:textSize="20dp" >
+        </TextView>
+
+        <EditText
+            android:id="@+id/pluses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:height="30dp"
+            android:hint="@string/text_integer"
+            android:inputType="number"
+            android:maxHeight="30dp"
+            android:maxLength="6"
+            android:text="" >
+        </EditText>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/clear"
+            android:width="40dp" >
+        </Button>
+
+        <Button
+            android:id="@+id/roll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/roll"
+            android:width="40dp" >
+        </Button>
+    </TableRow>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text=""
+        android:textSize="40dp" >
+    </TextView>
+
+</TableLayout>

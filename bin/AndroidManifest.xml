@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.giantoctopus.d20"
+	android:versionCode="8"
+	android:versionName="2.0">
+	<uses-sdk android:minSdkVersion="4" android:targetSdkVersion="10"/> 
+	<application android:icon="@drawable/icon" android:label="@string/app_name" android:theme="@android:style/Theme.Light">
+		<activity android:name="com.giantoctopus.d20.Main" android:label="@string/app_name"
+			android:theme="@android:style/Theme.NoTitleBar"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name=".Activity_Roll"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".Activity_Dice"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".Activity_Damage"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity android:name=".Activity_Mystery"
+			android:configChanges="orientation"
+			android:screenOrientation="portrait">
+		</activity>
+	</application>
+
+
+</manifest> 
